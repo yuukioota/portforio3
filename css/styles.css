@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1500px;
+  color:#333;
+  font-family: serif,sans-serif,verdana;
+  margin: 0 auto;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .container{
+    max-width: 1500px;
+    width: 100%;
+    margin:0 20px 20px 20px auto;
+    padding: 0 20px 20px 20px;
+    border-top: 2px solid rgba(180, 180, 180, 0.8);
+  }
+
+  .title{
+    color:rgba(180, 180, 180, 0.8);
+    text-align: center;
+    padding:0;
+    font-size: 45px;
+  }
+
+
+/* header */
+.header{
+  max-width: 1500px;
+  width: 100%;
+  height:100px;
+  margin: 0;
+  text-align: left;
+}
+
+.header h1{
+  line-height: 100px;
+  margin: 0;
+  height: 100px;
+  padding-left: 20px;
+}
+
+/* profiel */
+.profiel-wrapper{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profiel-wrapper h1{
+  margin: 0;
+}
+.self-image-wrapper{
+  height: 600px;
+  padding: 20px
+  margin:0;
+}
+
+.self-image{
+  max-width: 1200px;
+  width: 80%;
+  height: 600px;
+  margin: 0px auto;
+  padding: 0;
+  background-image: url("../img/profiel.jpg");
+  background-size: cover;
+}
+
+.self-detail {
+  padding:10px;
+}
+
+.self-detail > ul{
+  width: 80%;
+  margin:0 auto;
+  text-align: left;
+  padding: 10px;
+
+}
+
+/* product */
+.product{
+  margin: 20px 0 40px 0;
+  height: auto;
+  background-color:rgba(180, 180, 180, 0.1);
+}
+
+.screen-shot{
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+
+.screen-shot a{
+  display: block;
+  height: 600px;
+  width: 100%;
+}
+
+.comment{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  padding:250px 20%;
+  font-size: 25px;
+  color:white;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+
+.comment-active{
+  display:block;
+}
+
+
+
+.first-product{
+  background-image: url("../img/product_01.png");
+  /* position: 50% 50%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-product{
+  background-image: url("../img/product_02.png");
+  /* position: 50% 50%;
+  object-fit: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.text-content{
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: gray;
+  float: right;
+  overflow: scroll;
+  display: none;
+
+}
+
+.text-content p{
+  display: inline-block;
+}
